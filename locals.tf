@@ -6,7 +6,7 @@ locals {
     }
 
     TF_VPC_PROD = {
-      environment = "dev"
+      environment = "prod"
       aws_region = "us-east-1"
     }
   }
